@@ -11,6 +11,19 @@ También lo puedes hacer con play-store, pero la versión que descargué estaba 
 ```
 ifconfig
 ```
+Si no, debes instalarlo con
+```
+pkg install ifconfig.
+```
+4. Si lo tienes instalado, debería retornar información de tu conexión a la red, local o móvil.
+La información importante está, en conexión local, en
+```
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+inet *** IP_de_tu_Android ***  netmask 255.255.255.0  broadcast _Otro_valor
+unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+
+```
+
 
 
 
