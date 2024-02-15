@@ -13,16 +13,21 @@ ifconfig
 ```
 Si no, debes instalarlo con
 ```
-pkg install ifconfig.
+pkg install ifconfig
 ```
 4. Si lo tienes instalado, debería retornar información de tu conexión a la red, local o móvil.
-La información importante está, en conexión local, en
+La información importante está, en conexión local, en _inet_
 ```
 wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-inet *** IP_de_tu_Android ***  netmask 255.255.255.0  broadcast _Otro_valor
+inet _IP_DE_TU_ANDROID_  netmask 255.255.255.0  broadcast _Otro_valor_
 unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
-
 ```
+### Instalar ssh en android y configuración
+```
+pkg install openssh
+```
+
+
 
 
 
