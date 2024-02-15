@@ -52,6 +52,7 @@ Así, para que se estrablezca la conexción debes ejecutar este comando
 ssh usuario@IP_DE_TU_ANDROID -p 8022
 ```
 Te pedirá la contraseña. 
+La conexión se ha producido. 
 
 
 
