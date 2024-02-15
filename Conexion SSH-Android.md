@@ -49,7 +49,7 @@ Bien, con el usuario y el password para el ssh de tu android, puedes conectarte 
 Normalmente, el servidor ssh corre por el puerto 22. Sin embargo, en termux corre por el 8022.
 Así, para que se estrablezca la conexción debes ejecutar este comando
 ```
-ssh usuario@localhost -p 8022
+ssh usuario@IP_DE_TU_ANDROID -p 8022
 ```
 Te pedirá la contraseña. 
 
