@@ -1,7 +1,7 @@
 # Redes
 Estudio de auditoria y gestión de redes
 
-# Install wireshark ubuntu 22.04
+### Install wireshark ubuntu 22.04
 sudo apt update && sudo apt upgrade
 sudo apt install wireshark
 
